@@ -1,0 +1,11 @@
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-B_Cu.gbl
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-B_Mask.gbs
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-B_Paste.gbp
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-B_Silkscreen.gbo
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-Edge_Cuts.gm1
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-F_Cu.gtl
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-F_Mask.gts
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-F_Paste.gtp
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-F_Silkscreen.gto
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-NPTH.drl
+li-chuang-liang-shan-pai-tian-kong-xing-kai-fa-ban-PTH.drl

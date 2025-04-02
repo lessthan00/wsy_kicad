@@ -1,0 +1,11 @@
+TP4056_Lithium_battery_charging-B_Cu.gbl
+TP4056_Lithium_battery_charging-B_Mask.gbs
+TP4056_Lithium_battery_charging-B_Paste.gbp
+TP4056_Lithium_battery_charging-B_Silkscreen.gbo
+TP4056_Lithium_battery_charging-Edge_Cuts.gm1
+TP4056_Lithium_battery_charging-F_Cu.gtl
+TP4056_Lithium_battery_charging-F_Mask.gts
+TP4056_Lithium_battery_charging-F_Paste.gtp
+TP4056_Lithium_battery_charging-F_Silkscreen.gto
+TP4056_Lithium_battery_charging-NPTH.drl
+TP4056_Lithium_battery_charging-PTH.drl

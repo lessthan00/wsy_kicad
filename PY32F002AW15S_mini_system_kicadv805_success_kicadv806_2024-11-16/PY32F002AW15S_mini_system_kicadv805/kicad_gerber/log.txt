@@ -1,0 +1,11 @@
+PY32F002AW15S_mini_system-B_Cu.gbl
+PY32F002AW15S_mini_system-B_Mask.gbs
+PY32F002AW15S_mini_system-B_Paste.gbp
+PY32F002AW15S_mini_system-B_Silkscreen.gbo
+PY32F002AW15S_mini_system-Edge_Cuts.gm1
+PY32F002AW15S_mini_system-F_Cu.gtl
+PY32F002AW15S_mini_system-F_Mask.gts
+PY32F002AW15S_mini_system-F_Paste.gtp
+PY32F002AW15S_mini_system-F_Silkscreen.gto
+PY32F002AW15S_mini_system-NPTH.drl
+PY32F002AW15S_mini_system-PTH.drl

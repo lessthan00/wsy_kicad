@@ -1,0 +1,6 @@
+"Reference","Value","Footprint","Qty","DNP"
+"J1,J2","Screw_Terminal_01x02","TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal","2",""
+"LED1,LED2,LED3,LED4,LED5,LED6,LED7,LED8,LED9,LED10,LED11,LED12,LED13,LED14,LED15,LED16,LED17,LED18,LED19,LED20","LED_PLCC2_5.7x3.0_Pad","PCM_LED_SMD_AKL:LED_Yuji_5730","20",""
+"Q1,Q2","Si2302CDS","PCM_Package_TO_SOT_SMD_AKL:SOT-23","2",""
+"R1,R3","51KΩ?","PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","2",""
+"R2,R4","GL5506","OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical","2",""

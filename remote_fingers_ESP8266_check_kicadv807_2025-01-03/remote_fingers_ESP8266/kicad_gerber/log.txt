@@ -1,0 +1,9 @@
+remote_fingers_ESP8266-B_Cu.gbl
+remote_fingers_ESP8266-B_Mask.gbs
+remote_fingers_ESP8266-B_Paste.gbp
+remote_fingers_ESP8266-B_Silkscreen.gbo
+remote_fingers_ESP8266-Edge_Cuts.gm1
+remote_fingers_ESP8266-F_Cu.gtl
+remote_fingers_ESP8266-F_Mask.gts
+remote_fingers_ESP8266-F_Paste.gtp
+remote_fingers_ESP8266-F_Silkscreen.gto

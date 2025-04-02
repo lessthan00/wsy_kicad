@@ -1,0 +1,8 @@
+"Reference","Value","Footprint","Qty","DNP","Supplier Part","Manufacturer Part"
+"C1,C2,C3,C4,C6,C7,C8","100nF","PCM_Capacitor_THT_US_AKL:C_Disc_D5.1mm_W3.2mm_P5.00mm","7","","",""
+"H1,H2","~","MountingHole:MountingHole_3mm_Pad","2","","",""
+"R1,R2","5.1KΩ","PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical","2","","",""
+"U1","SL2.1A","Package_SO:SOP-16_3.9x9.9mm_P1.27mm","1","","",""
+"USB1,USB3,USB4,USB5","USB_A","Connector_USB:USB_A_Molex_67643_Horizontal","4","","",""
+"USB2","TYPE-C 16PIN 2MD(073)","Connector_USB:USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A","1","","",""
+"X1","12MHz_±20ppm_20pF_HC-49S","wsylib:Crystal_HC49-U-3Pin_Vertical_change","1","","",""

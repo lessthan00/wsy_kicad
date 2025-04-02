@@ -1,0 +1,11 @@
+DCDC_power_24V-12V-5V-Bottom Layer.gbl
+DCDC_power_24V-12V-5V-Bottom Overlay.gbo
+DCDC_power_24V-12V-5V-Bottom Paste.gbp
+DCDC_power_24V-12V-5V-Bottom Solder.gbs
+DCDC_power_24V-12V-5V-Edge_Cuts.gm1
+DCDC_power_24V-12V-5V-NPTH.drl
+DCDC_power_24V-12V-5V-PTH.drl
+DCDC_power_24V-12V-5V-Top Layer.gtl
+DCDC_power_24V-12V-5V-Top Overlay.gto
+DCDC_power_24V-12V-5V-Top Paste.gtp
+DCDC_power_24V-12V-5V-Top Solder.gts

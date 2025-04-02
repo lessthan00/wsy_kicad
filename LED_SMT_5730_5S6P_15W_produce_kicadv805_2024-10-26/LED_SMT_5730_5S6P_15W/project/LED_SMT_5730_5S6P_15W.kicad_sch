@@ -1,0 +1,6922 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0f501cdf-739c-4a82-90c0-986d93085286")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode thermal pad ep plcc2 5.7x3.0 generic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_0_1"
+				(polyline
+					(pts
+						(xy -0.508 1.905) (xy 0.254 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.397) (xy 1.27 2.921)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.889) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.778 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.889 0.889) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 255 1)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_1_1"
+				(rectangle
+					(start -3.81 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(text "Thermal\nPad"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 0.6 0.6)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LED_PLCC2_5.7x3.0_Pad_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 185.42 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "022a18ce-2b9b-4911-b3cf-abb728464f31")
+	)
+	(junction
+		(at 66.04 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04841aaa-731b-40b2-ab07-1b49b24f87e8")
+	)
+	(junction
+		(at 111.76 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "073b7633-1bf6-4087-8647-b51fb2152453")
+	)
+	(junction
+		(at 91.44 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b726957-8f13-45ad-8bd0-71e265939a43")
+	)
+	(junction
+		(at 137.16 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "128228c2-d8fc-49a4-866f-a20afcc9ebb5")
+	)
+	(junction
+		(at 91.44 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2028ee74-ed68-45cc-a2a5-c7d3ab9f7a5b")
+	)
+	(junction
+		(at 66.04 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2900b984-8b78-444f-9234-8ac8df970ab5")
+	)
+	(junction
+		(at 111.76 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ff71b98-770a-4ed3-a062-012a75418693")
+	)
+	(junction
+		(at 111.76 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3195ff99-6c22-450b-95cc-3a40bfc3984e")
+	)
+	(junction
+		(at 160.02 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46684fff-ff5d-4893-abfd-4945736ab50e")
+	)
+	(junction
+		(at 185.42 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48197d46-56d5-4519-b296-045db82dbc3a")
+	)
+	(junction
+		(at 160.02 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48503582-8db4-4e9e-b4e0-ec5114661907")
+	)
+	(junction
+		(at 91.44 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5043a4ae-2220-4f81-854a-7ec637eaba2e")
+	)
+	(junction
+		(at 137.16 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ab35289-4ca0-461a-8ff2-617153f13b44")
+	)
+	(junction
+		(at 185.42 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6cf376b0-f679-4e6e-88bd-ea77029e7239")
+	)
+	(junction
+		(at 160.02 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eb53aa6-87e5-4a0d-9722-fb9f26502ea3")
+	)
+	(junction
+		(at 137.16 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80c50cdd-bb10-4f9e-a69b-077c2cf27030")
+	)
+	(junction
+		(at 160.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "813f2f67-6de8-435b-976d-f2a2ef6987d3")
+	)
+	(junction
+		(at 185.42 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826aed75-7d11-4aee-b079-c47598a07318")
+	)
+	(junction
+		(at 160.02 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88161c9d-4939-4e2d-96d4-b2271385449b")
+	)
+	(junction
+		(at 160.02 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aaa602c-24b0-4cef-9168-2e6c69f244ac")
+	)
+	(junction
+		(at 66.04 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ed7d4fe-5e07-4d64-8beb-d9f32c787db1")
+	)
+	(junction
+		(at 185.42 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "980f56b9-451d-437b-851a-c8b79f75e4bf")
+	)
+	(junction
+		(at 91.44 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a21556c9-07c1-49ad-aa41-76f9ef8813b8")
+	)
+	(junction
+		(at 160.02 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a2d95d7a-2a4c-4832-9e99-b71812da8573")
+	)
+	(junction
+		(at 66.04 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69eb06d-f2bc-4ced-b1ae-e938693e9b1c")
+	)
+	(junction
+		(at 91.44 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9f0c767-a0b8-496d-8a5d-23520d698d20")
+	)
+	(junction
+		(at 137.16 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7957869-15fc-4631-9d2d-c384bff49f0d")
+	)
+	(junction
+		(at 91.44 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc901feb-9960-4a91-b01c-58836e3c4a7d")
+	)
+	(junction
+		(at 137.16 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c52fe32a-52f0-4908-91c1-7c5115fcad53")
+	)
+	(junction
+		(at 124.46 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd696d20-2d4b-4660-86dd-fc08ed174024")
+	)
+	(junction
+		(at 91.44 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e23c7ca6-63ff-4e75-ac3a-141ede4dd3e7")
+	)
+	(junction
+		(at 111.76 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5213584-828a-44fc-8c17-9f0d55ca09e9")
+	)
+	(junction
+		(at 137.16 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaa2a663-efaa-4c69-ae5e-ffbd15d88b1e")
+	)
+	(junction
+		(at 111.76 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec3982a5-da70-4d42-8ee6-7b710c0be3ba")
+	)
+	(junction
+		(at 111.76 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f18a6da8-399f-4cc1-9ccd-d3f61f063b4a")
+	)
+	(junction
+		(at 66.04 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3f35ae4-0da2-4710-8772-76fa0fed2483")
+	)
+	(wire
+		(pts
+			(xy 137.16 113.03) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a28ac0-1ee6-4b4b-a698-108c8a8a2e64")
+	)
+	(wire
+		(pts
+			(xy 72.39 69.85) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0179cee9-3404-4467-8f4c-0dbd94fa6f97")
+	)
+	(wire
+		(pts
+			(xy 185.42 52.07) (xy 185.42 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03f5411d-c6d2-4413-a966-efac34c84b1a")
+	)
+	(wire
+		(pts
+			(xy 111.76 115.57) (xy 124.46 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05b135bd-6c9e-4119-b4f5-ef242bbc1677")
+	)
+	(wire
+		(pts
+			(xy 91.44 52.07) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0668543e-b5da-416c-b47b-646a67e8d48b")
+	)
+	(wire
+		(pts
+			(xy 166.37 91.44) (xy 166.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ad69bf-f9e9-40d5-8f9e-882aff0021dd")
+	)
+	(wire
+		(pts
+			(xy 91.44 115.57) (xy 111.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac36f5e-96ed-4fba-8ea4-4d8fd39336a7")
+	)
+	(wire
+		(pts
+			(xy 111.76 33.02) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ccd830f-a6a4-42da-901c-59779e04c132")
+	)
+	(wire
+		(pts
+			(xy 191.77 45.72) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dba9655-531a-4b3f-9dd2-8724b41f9761")
+	)
+	(wire
+		(pts
+			(xy 118.11 54.61) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c01747-861c-4834-a87d-201e75f2a3dd")
+	)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1451a61f-07ed-49a2-8b53-5983f90192e2")
+	)
+	(wire
+		(pts
+			(xy 143.51 76.2) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fd31a0-f764-48f7-88d0-50b103e00e59")
+	)
+	(wire
+		(pts
+			(xy 185.42 113.03) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f3c287-e6f5-466f-ae3e-768ef8629fe7")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169c160b-034b-40b8-84ab-ef0c52a9233a")
+	)
+	(wire
+		(pts
+			(xy 66.04 33.02) (xy 91.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1799cf9c-1102-4958-9a74-fcf80d68d802")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c7c290-6842-44f6-b5c5-b573aa952798")
+	)
+	(wire
+		(pts
+			(xy 166.37 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3710ca-aceb-45ea-981d-2632c7a640f5")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1f9b47-5348-4d82-ad3b-dbfa737e9486")
+	)
+	(wire
+		(pts
+			(xy 160.02 52.07) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230c1b16-e769-487f-80a9-899530bf9932")
+	)
+	(wire
+		(pts
+			(xy 137.16 82.55) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f6bca0-ba09-4edc-937e-170538899688")
+	)
+	(wire
+		(pts
+			(xy 118.11 91.44) (xy 118.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ddd31c-31ff-4e25-acb8-ebd9c7bc2325")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 160.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299cafb2-abc1-4c29-bf34-1898c3076970")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 143.51 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f01015-7908-4bc7-be3a-ca05511a5e21")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 118.11 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335a43dc-59d3-4b56-8e33-e61870a589f7")
+	)
+	(wire
+		(pts
+			(xy 118.11 100.33) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3449fa2f-6620-4de7-8233-24075ada2273")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 72.39 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a1c64e-81ef-4906-bba7-93d694b46f99")
+	)
+	(wire
+		(pts
+			(xy 160.02 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379424cc-9fe0-4933-9c83-3f1e051e6311")
+	)
+	(wire
+		(pts
+			(xy 166.37 60.96) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b615cf3-b8f3-4d79-ab37-021ab4d8ace1")
+	)
+	(wire
+		(pts
+			(xy 191.77 60.96) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9b8b4a-59c3-40e1-8fc7-1e46f41af04a")
+	)
+	(wire
+		(pts
+			(xy 185.42 39.37) (xy 191.77 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c522a19-220a-4b41-9cb6-b60820394558")
+	)
+	(wire
+		(pts
+			(xy 185.42 85.09) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c733fc9-d212-48b2-9e03-779631586cd1")
+	)
+	(wire
+		(pts
+			(xy 66.04 113.03) (xy 66.04 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7ae52f-3683-403f-91e0-6d6121b62f0f")
+	)
+	(wire
+		(pts
+			(xy 97.79 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3da9ea03-9279-4995-8185-d643d90735e8")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 143.51 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43dfed03-f3b2-42d2-8e8a-eec63ae6ddd7")
+	)
+	(wire
+		(pts
+			(xy 137.16 97.79) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48d4a0ae-4cc0-4c2c-9725-7226742a905c")
+	)
+	(wire
+		(pts
+			(xy 118.11 45.72) (xy 118.11 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b07154f-4e4c-4a2c-a5a5-177c7db8a608")
+	)
+	(wire
+		(pts
+			(xy 143.51 91.44) (xy 143.51 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7fc7e7-a15f-4da1-aed3-6bace0948e81")
+	)
+	(wire
+		(pts
+			(xy 160.02 67.31) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501afed7-0200-485a-915b-dbc979f45b22")
+	)
+	(wire
+		(pts
+			(xy 191.77 76.2) (xy 191.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5087f863-b6e7-4a75-ae6c-84490967475e")
+	)
+	(wire
+		(pts
+			(xy 72.39 45.72) (xy 72.39 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c607b8-35c4-4597-ab0b-235413f63e4f")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 72.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54e66340-e2ae-490b-a9aa-5120ae67b58b")
+	)
+	(wire
+		(pts
+			(xy 124.46 115.57) (xy 137.16 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55194c23-1b7c-402c-ad0d-23f7569fd120")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a444b7-511e-4638-8783-e6be50bcfc7e")
+	)
+	(wire
+		(pts
+			(xy 97.79 60.96) (xy 97.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587e741a-d169-4e37-9d16-51bc6b93cf9c")
+	)
+	(wire
+		(pts
+			(xy 185.42 54.61) (xy 191.77 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a0d844-3c60-4087-8dd3-a18e6108d25a")
+	)
+	(wire
+		(pts
+			(xy 66.04 97.79) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae9d4bf-fcb6-4ad6-a5b3-12d08b6c7d31")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 111.76 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8f45cf-a8d5-496b-84e0-085919fc7ddb")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 118.11 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d70164d-d17e-46a8-8fee-966f241aaa43")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e27ebb-5cc7-41c4-888e-ef343ea21bf0")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 66.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6974250e-010c-4a2a-9647-4b2d47c7b939")
+	)
+	(wire
+		(pts
+			(xy 97.79 106.68) (xy 97.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c505ab0-51ee-46f9-8bff-0e7bb81f2e24")
+	)
+	(wire
+		(pts
+			(xy 97.79 76.2) (xy 97.79 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70975477-3652-4b28-aaa0-b1b77de9733d")
+	)
+	(wire
+		(pts
+			(xy 72.39 106.68) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756377e2-39c2-4e46-9384-068c2afe65df")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "776ed661-b3de-4a21-aa3b-6132a7aa4c61")
+	)
+	(wire
+		(pts
+			(xy 66.04 115.57) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b107e80-8a59-4d30-9522-330e51c0af8d")
+	)
+	(wire
+		(pts
+			(xy 185.42 97.79) (xy 185.42 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d37772e-7258-4176-aa0a-c41768a3f863")
+	)
+	(wire
+		(pts
+			(xy 143.51 60.96) (xy 143.51 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dea1f55-65d0-46d6-b1ec-f4b10e095339")
+	)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808155ce-bd6b-48b0-8a7c-4d2cd49828af")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 166.37 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816fa17f-a6f7-4cbf-9e14-5cee680d5f10")
+	)
+	(wire
+		(pts
+			(xy 185.42 82.55) (xy 185.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81aa76eb-c579-4d09-85f2-19a3464105d2")
+	)
+	(wire
+		(pts
+			(xy 91.44 97.79) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a8c76b-f790-4404-9eba-18708604fb30")
+	)
+	(wire
+		(pts
+			(xy 111.76 113.03) (xy 111.76 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88cebd5c-e163-4593-853d-9d5007186ffa")
+	)
+	(wire
+		(pts
+			(xy 160.02 33.02) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f523d63-73bf-4eef-be6e-f82941c842f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 60.96) (xy 118.11 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8636d1-4c3b-48eb-9477-7e54555e4cae")
+	)
+	(wire
+		(pts
+			(xy 72.39 54.61) (xy 66.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97aeb91e-f7e3-40f5-bf21-08700ed2f99b")
+	)
+	(wire
+		(pts
+			(xy 160.02 33.02) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dd6013-5fcd-444a-8ce6-4ba9aa48880e")
+	)
+	(wire
+		(pts
+			(xy 166.37 39.37) (xy 160.02 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f16381-e178-492c-b4b9-44bb3fee78a8")
+	)
+	(wire
+		(pts
+			(xy 137.16 33.02) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb44579-435b-457a-9f6f-e05f1e74963d")
+	)
+	(wire
+		(pts
+			(xy 160.02 113.03) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb5fb0d-3c05-472c-a276-1a326e559d1b")
+	)
+	(wire
+		(pts
+			(xy 91.44 113.03) (xy 91.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1ddf22-93ba-4a5a-a77c-48d89f86fc53")
+	)
+	(wire
+		(pts
+			(xy 66.04 39.37) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e75e20d-7ac6-451a-bb75-117297620a55")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e868e41-7877-4835-aec8-81f8a6448787")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 111.76 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7bb6d7-2e72-4e23-a35a-043353c55e8e")
+	)
+	(wire
+		(pts
+			(xy 72.39 39.37) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c40e59-2806-4962-9581-b704a20eac70")
+	)
+	(wire
+		(pts
+			(xy 137.16 115.57) (xy 160.02 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67c835e-c104-4909-8181-6edbeb0966d3")
+	)
+	(wire
+		(pts
+			(xy 143.51 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b4677b-b25a-4325-89bb-8ea6f0f809c8")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 191.77 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9009160-cde6-493c-880b-dbe2693cfd66")
+	)
+	(wire
+		(pts
+			(xy 166.37 106.68) (xy 166.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37150a6-9a44-4f21-99e1-d87351243e81")
+	)
+	(wire
+		(pts
+			(xy 160.02 97.79) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b387f82a-97f7-426d-ab39-5520450fe4ab")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 91.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b592c7cd-fb05-4961-8225-1fe1dd91a939")
+	)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b618318b-9f4e-410c-9593-3fd61e1985ea")
+	)
+	(wire
+		(pts
+			(xy 97.79 69.85) (xy 91.44 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86307c7-8a04-4ed1-a193-bc4c00038366")
+	)
+	(wire
+		(pts
+			(xy 97.79 85.09) (xy 91.44 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90e3d43-2512-486e-a884-f03194a370b6")
+	)
+	(wire
+		(pts
+			(xy 137.16 67.31) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba901a2-e406-4806-9992-5d515cdd5392")
+	)
+	(wire
+		(pts
+			(xy 185.42 100.33) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd52d80d-a5a5-4cfe-ad65-0d04c4e89e37")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be670d97-8323-459a-81ea-b68abcbc0059")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5adb15c-d99d-4fbb-827f-c96eaeff97dc")
+	)
+	(wire
+		(pts
+			(xy 191.77 106.68) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c706271f-2808-42ed-9efd-55e98f9e67dc")
+	)
+	(wire
+		(pts
+			(xy 185.42 69.85) (xy 191.77 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73756ed-4d9d-43b4-babf-e9849e8010d8")
+	)
+	(wire
+		(pts
+			(xy 72.39 60.96) (xy 72.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb326a02-b03a-4e3f-9fd8-f7b0e8799232")
+	)
+	(wire
+		(pts
+			(xy 91.44 33.02) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb39efa3-d511-4772-a682-a86d8dfedd33")
+	)
+	(wire
+		(pts
+			(xy 166.37 45.72) (xy 166.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3bdf94-62e3-4515-b3a0-8506c038852a")
+	)
+	(wire
+		(pts
+			(xy 118.11 39.37) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1680fd6-b402-4812-804d-c3bb21366390")
+	)
+	(wire
+		(pts
+			(xy 166.37 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fe6f6e-ef43-4640-b53d-0c7beaf09b50")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60b6c7f-5f1b-4c9c-b6c3-990ae156b09a")
+	)
+	(wire
+		(pts
+			(xy 143.51 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd0c0fb6-ee05-4ad1-bb9d-d8081746c756")
+	)
+	(wire
+		(pts
+			(xy 97.79 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7de5e9-d2f5-4b39-86cf-4bb0fa7f4dcb")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28cb859-8479-4e50-a9bd-e9d88c13afe6")
+	)
+	(wire
+		(pts
+			(xy 185.42 67.31) (xy 185.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5468826-c3eb-4ff8-b875-7f06c02bde82")
+	)
+	(wire
+		(pts
+			(xy 143.51 54.61) (xy 137.16 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e84ea863-0e41-45dc-a592-8e8fd76ca6ed")
+	)
+	(wire
+		(pts
+			(xy 143.51 39.37) (xy 137.16 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4008635-3c62-447e-a458-4e25b3159dd6")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.31) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53111ef-ca55-4f9c-9168-9af4c42369fd")
+	)
+	(wire
+		(pts
+			(xy 118.11 85.09) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62e645a-9efe-4e5b-a65c-dd7bc6d45474")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 160.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87e392d-3e51-4b32-aa63-3acaaeb53c90")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 91.44 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9054cae-f310-43e5-9012-2ba1eb1bf751")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 185.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce0c832-68ee-4e23-b5de-d2abdf73a760")
+	)
+	(text "x 5730LED 正白参数\n正向工作电流 150mA\n光强 60mcd\n主波长 3200nm\n正向电压 3.2V-3.4V\n5串6并供电电压16V-17V\n工作电流 900mA\n功率 14.85W\n两节18650锂电池供电"
+		(exclude_from_sim no)
+		(at 200.66 96.52 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left)
+		)
+		(uuid "f5c9839e-e758-43f6-9bbb-94af9c9c12aa")
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 66.04 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0997e2c1-a572-45da-9e70-0ebe403b5e1d")
+		(property "Reference" "LED3"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 68.0719 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 66.04 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 66.04 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a43eff-7d25-4d34-a221-131122ac12dc")
+		)
+		(pin "3"
+			(uuid "22b469b5-69a8-4889-b10c-5ad3ad8c1482")
+		)
+		(pin "2"
+			(uuid "8f671c47-e4c2-421f-94cc-e6219685d2d6")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 160.02 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ca623ff-d9fb-4832-8d16-384c02c78afb")
+		(property "Reference" "LED25"
+			(at 154.94 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 162.0519 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 160.02 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 160.02 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc8bf47-d230-4437-863e-d93b836ff6c7")
+		)
+		(pin "3"
+			(uuid "3d931b72-e474-4022-8be3-a187b7a77e90")
+		)
+		(pin "2"
+			(uuid "4cf23ec5-97cd-44c9-be2e-79d6ec727060")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 160.02 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "215197e5-3e69-41f2-9cc8-de422e7f7962")
+		(property "Reference" "LED24"
+			(at 154.94 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 162.0519 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 160.02 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44eac89f-40e9-4260-b53d-11e460f54773")
+		)
+		(pin "3"
+			(uuid "3adc4383-e2da-4e78-a51d-3e731013fde3")
+		)
+		(pin "2"
+			(uuid "cdfc8e2a-6c9c-4db2-baf4-922f20fe8d6a")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 111.76 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2baf0651-0a61-48bc-96cc-5fb91d6bfc7b")
+		(property "Reference" "LED15"
+			(at 106.68 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 113.7919 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 111.76 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 111.76 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 111.76 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 111.76 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 111.76 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a6bb037-5ed6-4483-84fb-22f02aabe3d5")
+		)
+		(pin "3"
+			(uuid "b4107529-44f9-4f2d-b5be-5082538e3558")
+		)
+		(pin "2"
+			(uuid "5d544e89-ae41-41b6-b269-0a29171cf274")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300c4f1a-c64c-4414-8509-2b37a1285c0e")
+		(property "Reference" "#PWR04"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94fe25bc-2935-432b-9a9e-afa9902083aa")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 208.28 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3687b21b-48ac-4a6d-86ad-e5c98dbb8fbe")
+		(property "Reference" "H1"
+			(at 210.82 47.6249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 210.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3mm_Pad"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 208.28 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "孔径" "m3"
+			(at 210.82 51.4349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "45ea15c1-1068-480a-8620-e32cad7b6189")
+		)
+		(instances
+			(project ""
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 210.82 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b064393-fdcc-4683-8571-9c7cc22a793d")
+		(property "Reference" "#FLG01"
+			(at 210.82 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 213.36 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9cf89db-ea75-422f-b243-eaae61c726b8")
+		)
+		(instances
+			(project ""
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 111.76 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b366438-daff-4cc1-81c4-3a3370faa89f")
+		(property "Reference" "LED12"
+			(at 106.68 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 113.7919 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 111.76 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 111.76 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50a9cac1-7059-4b26-b9bf-f96d3c0b6da1")
+		)
+		(pin "3"
+			(uuid "32c347ca-d66b-4b85-a32c-9d95a68d1e2f")
+		)
+		(pin "2"
+			(uuid "2d116c96-52c5-4820-bc9b-dba724ac5768")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 185.42 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff08b75-2566-4b3f-8d2a-c6d9ea4d4287")
+		(property "Reference" "LED29"
+			(at 180.34 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 187.4519 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 185.42 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 185.42 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 185.42 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 185.42 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 185.42 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 185.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5cd77f1-6549-4a62-bd81-aec3cf59bcf5")
+		)
+		(pin "3"
+			(uuid "1ab6e0e5-9ca2-4fa2-b2e0-9028decf857f")
+		)
+		(pin "2"
+			(uuid "2b96c30f-271b-4f83-abdd-5fe7275b953e")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 160.02 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43aaf148-f86d-4b4e-969f-eb91f9ae959d")
+		(property "Reference" "LED22"
+			(at 154.94 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 162.0519 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 160.02 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f5adc30-4e9d-4207-bfa2-0bd54c0152dd")
+		)
+		(pin "3"
+			(uuid "eda97d0d-d9fd-4214-9839-aa6410dee362")
+		)
+		(pin "2"
+			(uuid "1aa0a50c-2be3-4ac0-b22c-395345cfa9cc")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 185.42 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "463602e5-3ada-467f-b20f-083a4d3d9a87")
+		(property "Reference" "LED28"
+			(at 180.34 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 187.4519 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 185.42 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12a65d12-c7b4-4482-9cdd-2af54a4b350e")
+		)
+		(pin "3"
+			(uuid "bc24e464-4350-4156-b9bf-852730c9d1ad")
+		)
+		(pin "2"
+			(uuid "3edf11b2-bb1b-4328-b949-9248e1386a65")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 185.42 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f56703-4e36-4445-9ed2-ad4247d982b5")
+		(property "Reference" "LED27"
+			(at 180.34 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 187.4519 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 185.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 185.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 185.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 185.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 185.42 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 185.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d96104a-ff8e-41e0-97ed-71af860ae418")
+		)
+		(pin "3"
+			(uuid "11581790-eb74-4f66-8df6-cefe7b6917ce")
+		)
+		(pin "2"
+			(uuid "b47e1a1e-7433-4fff-a420-94f08e7772b8")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 231.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535f7401-cb0f-4e83-9f65-7dba3dc9d909")
+		(property "Reference" "#FLG03"
+			(at 231.14 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 233.68 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7da30e-2035-4659-92ea-30edbcefadb1")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 91.44 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "542be889-a4b5-4d3d-a61d-ddfba5dd1042")
+		(property "Reference" "#PWR02"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED1"
+			(at 91.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 91.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e73e4c74-8c5a-4e47-bb2f-cf5c8647c9ca")
+		)
+		(instances
+			(project "LED_SMT_5730_10S_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_10S_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 220.98 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5438afb1-5512-47b9-9ee0-bfc919aee57d")
+		(property "Reference" "#FLG02"
+			(at 220.98 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 223.52 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b461a10e-d810-47f6-9ae9-d5f94eb11e8d")
+		)
+		(instances
+			(project "LED_SMT_5730_10S_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_10S_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5819ba9d-316d-4027-a6c7-d35d83fc35a9")
+		(property "Reference" "#PWR06"
+			(at 220.98 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9592b52-3b74-47ac-a415-8eab5ffabdf1")
+		)
+		(instances
+			(project "LED_SMT_5730_10S_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_10S_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 231.14 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d4b696f-c0be-4cd2-a535-6ca07cb6241e")
+		(property "Reference" "#PWR07"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED2"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 231.14 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2733a692-c14f-4e8a-a103-faba4c45848e")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 66.04 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63d45670-c1b4-48d1-8c06-0b50adbe62e6")
+		(property "Reference" "LED4"
+			(at 60.96 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 68.0719 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 66.04 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 66.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02ae3a18-008a-4f14-af8c-53a545eaf9b7")
+		)
+		(pin "3"
+			(uuid "bd79bc29-9f45-45f8-afc3-d88ad5e6fcc4")
+		)
+		(pin "2"
+			(uuid "ee23efc2-14b7-4127-9fd8-0fc18df22686")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 91.44 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "667e846c-675c-4875-9cd4-4d610ace9062")
+		(property "Reference" "LED9"
+			(at 86.36 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 93.4719 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 91.44 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 91.44 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 91.44 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 91.44 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21f11e82-9d25-4612-a4aa-0bb9a7aeccbb")
+		)
+		(pin "3"
+			(uuid "59092860-e543-44ce-8937-f8ecb9171e9a")
+		)
+		(pin "2"
+			(uuid "0ef17d1a-8d2e-43a9-aae0-36f42d580e72")
+		)
+		(instances
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 210.82 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "690a962e-7b73-4d5f-815b-3bea67f96f45")
+		(property "Reference" "#PWR05"
+			(at 210.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED1"
+			(at 210.82 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 210.82 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4962af42-9c3f-4057-8ec5-ea347e00e8a4")
+		)
+		(instances
+			(project "LED_SMT_5730_10S_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_10S_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 137.16 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fe4f98b-5dbf-4fdc-b21f-db3c117dfdde")
+		(property "Reference" "LED18"
+			(at 132.08 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 139.1919 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 137.16 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 137.16 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44493625-60b5-4b86-8b5f-2e4220cab669")
+		)
+		(pin "3"
+			(uuid "1f5d0773-6403-4038-919e-e1514fda04f7")
+		)
+		(pin "2"
+			(uuid "09161f9a-7b06-4b9c-9feb-e4dded0fd7ab")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 91.44 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fbad9c-5101-4a37-b598-9938d1ef4428")
+		(property "Reference" "LED6"
+			(at 86.36 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 93.4719 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 91.44 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 91.44 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 91.44 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 91.44 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93d790c5-d855-4705-be58-64a07493179e")
+		)
+		(pin "3"
+			(uuid "5a889d19-bbda-42aa-a9fe-d7020560c60f")
+		)
+		(pin "2"
+			(uuid "e0bbac04-3763-4059-acfd-61e46324d875")
+		)
+		(instances
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 137.16 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d5eda21-3e85-4da5-8fe7-3d1c9dfe3348")
+		(property "Reference" "LED20"
+			(at 132.08 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 139.1919 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6214a2-56fb-4276-af9b-8913657e7087")
+		)
+		(pin "3"
+			(uuid "3f4e6d03-df13-40c1-89d3-574c942c8935")
+		)
+		(pin "2"
+			(uuid "bca32413-13d0-4366-94ff-66e569882df2")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 66.04 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d9c8833-1f9b-42de-9eb6-5a06c52ce8e0")
+		(property "Reference" "LED5"
+			(at 60.96 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 68.0719 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 66.04 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 66.04 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 66.04 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 66.04 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 66.04 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed17d58a-9a88-4ce6-8be2-22778b7f6d3f")
+		)
+		(pin "3"
+			(uuid "ef1f7c9e-2ce1-4f00-86ce-e11f33e55176")
+		)
+		(pin "2"
+			(uuid "e6ac4241-d1a1-4660-81f0-0640da476206")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 91.44 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94c4180d-3c4d-459b-afbc-d702cc1e744f")
+		(property "Reference" "LED8"
+			(at 86.36 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 93.4719 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 91.44 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 91.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c26d341-26a7-4913-a121-b49717b97b34")
+		)
+		(pin "3"
+			(uuid "c076a636-e798-4eb1-ba9c-bd7ba48ee3c2")
+		)
+		(pin "2"
+			(uuid "1ac02187-093c-4eeb-8b2c-fd542aceea8a")
+		)
+		(instances
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 66.04 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a7b95d6-7fd1-49fe-a671-ad1cdfa8a5e0")
+		(property "Reference" "LED1"
+			(at 60.96 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 60.96 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 66.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 66.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 66.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 66.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 66.04 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "057d3820-7586-4dc0-a040-96aca9c9960c")
+		)
+		(pin "3"
+			(uuid "e04c4bcb-62ef-4081-9221-df1a2bcb0ef2")
+		)
+		(pin "2"
+			(uuid "34079d26-9f6a-46ff-8863-90efce551339")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 160.02 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ec4776f-bd2d-4cca-a4a0-64a4b3daaf9c")
+		(property "Reference" "LED23"
+			(at 154.94 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 162.0519 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 160.02 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 160.02 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b61935f-c370-4b9e-b52f-e80e7b4da7be")
+		)
+		(pin "3"
+			(uuid "54d751cd-3173-43b3-9469-78a85064bc27")
+		)
+		(pin "2"
+			(uuid "31c3c7f9-17b1-4d7f-afa4-11afa948d536")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 137.16 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3f367af-5bfc-490f-baf5-b49bac89ef95")
+		(property "Reference" "LED16"
+			(at 132.08 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 139.1919 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 137.16 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 137.16 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 137.16 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 137.16 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 137.16 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4a3abaf-9edc-4fcb-b117-8afa8e9e1f29")
+		)
+		(pin "3"
+			(uuid "ddfcc037-e1a8-46a6-a12e-96e73cc068fd")
+		)
+		(pin "2"
+			(uuid "17b338a7-845f-497c-9555-1d57ec4aa5e8")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 111.76 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a744dddc-246a-4ab4-b4b4-afd6686bf513")
+		(property "Reference" "LED14"
+			(at 106.68 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 113.7919 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 111.76 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 111.76 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 111.76 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 111.76 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 111.76 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8f35345-71ff-4451-952b-6b337c22859a")
+		)
+		(pin "3"
+			(uuid "fc46ea3d-1e83-43cb-8ec2-a4e05278aeff")
+		)
+		(pin "2"
+			(uuid "a31cd4b4-9a5c-4edf-a157-b7acd8e8eb7f")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 137.16 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7fe0260-3e7b-424c-bc89-9b09093885ab")
+		(property "Reference" "LED19"
+			(at 132.08 91.4399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 139.1919 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 137.16 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 137.16 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a9741b-1849-4215-8930-755a06adf80e")
+		)
+		(pin "3"
+			(uuid "4a0d0f28-57d9-4e64-929b-5315d310c325")
+		)
+		(pin "2"
+			(uuid "7e2cc1be-7baa-451f-99c5-68c6791f5f86")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 137.16 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af4220dc-bb75-4dbc-baf2-02d0b37510f2")
+		(property "Reference" "LED17"
+			(at 132.08 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 139.1919 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 137.16 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 137.16 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 137.16 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 137.16 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 137.16 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 137.16 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3d6a82c-b7b2-469f-afc1-860138b52896")
+		)
+		(pin "3"
+			(uuid "f68c0dfa-683f-406f-a77d-d6802e6debc6")
+		)
+		(pin "2"
+			(uuid "3af93d18-f27f-47ce-9db1-79289a76e7f8")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 111.76 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b50c352f-21f4-4876-86b1-2b1ff07a5cbf")
+		(property "Reference" "LED13"
+			(at 106.68 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 113.7919 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 111.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 111.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 111.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 111.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 111.76 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc48f9f0-0870-4fa4-8c36-1887b57ee06e")
+		)
+		(pin "3"
+			(uuid "86201e7a-44bb-4383-9e26-08b78bb2089a")
+		)
+		(pin "2"
+			(uuid "0e4f2d23-f26c-4bdb-8ee7-1286ee1568dc")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 111.76 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6629e4f-ea1a-4a14-9f06-9d0068fd5ef3")
+		(property "Reference" "LED11"
+			(at 106.68 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 113.7919 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 111.76 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e1d4339-4b8d-4ce2-ab42-b70d523c9d98")
+		)
+		(pin "3"
+			(uuid "90a70dff-9af7-4108-9c3a-8235684d72f4")
+		)
+		(pin "2"
+			(uuid "872088b9-27da-42d5-9eb1-5e003d0bed98")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 66.04 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7ee4d31-67be-41f0-af92-fd4a27cf36ea")
+		(property "Reference" "LED2"
+			(at 59.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 68.0719 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 66.04 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 66.04 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b88ca4-bf24-42ec-9a85-90f13e93978f")
+		)
+		(pin "3"
+			(uuid "18f42afc-55e2-40e7-9f52-39e9fac649d5")
+		)
+		(pin "2"
+			(uuid "a454c4f0-b1c8-4421-9aca-28b48e832db6")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 185.42 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5222d33-3075-463f-bb77-a35ffbee5ef7")
+		(property "Reference" "LED26"
+			(at 180.34 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 187.4519 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 185.42 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 185.42 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 185.42 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 185.42 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 185.42 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 185.42 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9afe3fe-084e-42c7-b636-12ede8380ed8")
+		)
+		(pin "3"
+			(uuid "14e25c5d-1478-4b81-92bc-13ad7653bd63")
+		)
+		(pin "2"
+			(uuid "f0b8eb72-48d3-46ae-ac16-04ef1f0a1eeb")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 91.44 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce44322c-fa7f-4b10-822d-42f1bf6a0fa9")
+		(property "Reference" "LED7"
+			(at 86.36 60.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 93.4719 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 91.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 91.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 91.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 91.44 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 91.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cf37bf1-e68d-4df7-b343-441e727c3527")
+		)
+		(pin "3"
+			(uuid "e327fab8-d040-4bda-9e5a-912442276ad7")
+		)
+		(pin "2"
+			(uuid "4ffad4b3-64a2-4fe8-823b-24d640470d12")
+		)
+		(instances
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 160.02 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac105d6-582a-4def-a2e1-78e12d011b59")
+		(property "Reference" "LED21"
+			(at 154.94 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 162.0519 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 160.02 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 160.02 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 160.02 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 160.02 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 160.02 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "188372e8-08fd-41ac-8c1f-099330d8516f")
+		)
+		(pin "3"
+			(uuid "01d25b43-7034-403f-9d0e-50dea3fa0314")
+		)
+		(pin "2"
+			(uuid "a71a64ba-6a55-4aee-a376-7b8d3f50cf2e")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 160.02 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e32316e7-2d51-4073-8626-8949b2ec47ec")
+		(property "Reference" "#PWR03"
+			(at 160.02 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VLED2"
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e3de3d-7091-4bac-95c7-bf6474756edd")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2f5f6ee-0192-4a43-bce7-0062da488216")
+		(property "Reference" "#PWR01"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf7db2ba-86dc-4d68-9c33-08da4f40ec61")
+		)
+		(instances
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S2P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 185.42 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6101644-fd14-4d26-930f-7dcc6700af69")
+		(property "Reference" "LED30"
+			(at 180.34 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 187.4519 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 185.42 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171514d4-0961-4a3a-97eb-af9e64e11980")
+		)
+		(pin "3"
+			(uuid "16493888-e6a0-4886-bd6d-a0bac1e6ba61")
+		)
+		(pin "2"
+			(uuid "f9a32c5a-f369-4524-9a22-5380376cf3b1")
+		)
+		(instances
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_5S6P_5W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_PLCC2_5.7x3.0_Pad")
+		(at 91.44 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc86622c-7f4f-441e-acd9-f787b7eafd13")
+		(property "Reference" "LED10"
+			(at 86.36 106.6799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_PLCC2_5.7x3.0_Pad"
+			(at 93.4719 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_Yuji_5730"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED with thermal pad, PLCC2 5.7mm length, 3.0mm width, Alternate KiCad Library"
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XL-5730WWC-05"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT(成兴光)"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part" "C2843886"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Name" "XL-5730WWC-05"
+			(at 91.44 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "jlc_bom" ""
+			(at 91.44 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019fec88-f069-4ee1-862b-b345e56da2e9")
+		)
+		(pin "3"
+			(uuid "3be99b4a-9beb-4231-a62e-529d4b974b5d")
+		)
+		(pin "2"
+			(uuid "c981508d-a3d2-4f95-9337-29adee529b16")
+		)
+		(instances
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/0f501cdf-739c-4a82-90c0-986d93085286"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+			(project "LED_SMT_5730_15S2P_15W"
+				(path "/1f1d3f19-c67c-4a3b-8445-f4a04d631afc/e2f29e86-9c31-4022-8bea-fd5d8e18368a"
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
