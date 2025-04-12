@@ -64,7 +64,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -2014,7 +2013,7 @@
 		)
 	)
 	(gr_text "MCU_VDD\n"
-		(at 128.261905 103.13 0)
+		(at 127.061905 103.13 0)
 		(layer "F.SilkS")
 		(uuid "0ece6da6-dafb-4391-bc3c-58fdf850dd17")
 		(effects
@@ -2026,7 +2025,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 115.84 0)
+		(at 141.5 115.84 0)
 		(layer "F.SilkS")
 		(uuid "1d0f4d6c-e7e3-4b10-ad48-5e576464da3d")
 		(effects
@@ -2038,7 +2037,7 @@
 		)
 	)
 	(gr_text "JTMS"
-		(at 130.814285 110.73 0)
+		(at 129.614285 110.73 0)
 		(layer "F.SilkS")
 		(uuid "1ed7008a-a330-4649-ac8b-c445052ddb2f")
 		(effects
@@ -2050,7 +2049,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 113.3 0)
+		(at 141.5 113.3 0)
 		(layer "F.SilkS")
 		(uuid "1f6c2729-2f5c-4601-9587-6af64a7fd3ae")
 		(effects
@@ -2074,7 +2073,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 112.09 118.61 0)
+		(at 111 118.61 0)
 		(layer "F.SilkS")
 		(uuid "29263bc9-a348-47e0-96df-53ea0a0f8d96")
 		(effects
@@ -2098,7 +2097,7 @@
 		)
 	)
 	(gr_text "NRST"
-		(at 130.7 120.89 0)
+		(at 129.5 120.89 0)
 		(layer "F.SilkS")
 		(uuid "3872a7f7-ba34-4481-b31e-d0b93ddb2563")
 		(effects
@@ -2146,7 +2145,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 112.09 113.53 0)
+		(at 111 113.53 0)
 		(layer "F.SilkS")
 		(uuid "50947d21-0339-45bc-8dbd-53e971a13b47")
 		(effects
@@ -2158,7 +2157,7 @@
 		)
 	)
 	(gr_text "JTDO"
-		(at 130.852381 118.35 0)
+		(at 129.652381 118.35 0)
 		(layer "F.SilkS")
 		(uuid "51773d85-c145-4224-9fbb-941bd78097f6")
 		(effects
@@ -2182,7 +2181,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 112.09 121.15 0)
+		(at 111 121.15 0)
 		(layer "F.SilkS")
 		(uuid "5d0eec95-353f-43e3-b0f0-0f3f073f7ee7")
 		(effects
@@ -2194,7 +2193,7 @@
 		)
 	)
 	(gr_text "JTCK"
-		(at 121.6 113.43 0)
+		(at 123 113.43 0)
 		(layer "F.SilkS")
 		(uuid "6109b8ce-b1f2-45a0-a5fa-142a7bb576aa")
 		(effects
@@ -2206,7 +2205,7 @@
 		)
 	)
 	(gr_text "JTDO"
-		(at 121.6 115.97 0)
+		(at 123 115.97 0)
 		(layer "F.SilkS")
 		(uuid "724f311f-6060-4a33-a1da-79d52ac52ab8")
 		(effects
@@ -2218,7 +2217,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 110.76 0)
+		(at 141.5 110.76 0)
 		(layer "F.SilkS")
 		(uuid "73dec0b5-16b0-4086-9693-0570861ea434")
 		(effects
@@ -2254,7 +2253,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 108.22 0)
+		(at 141.5 108.22 0)
 		(layer "F.SilkS")
 		(uuid "8a744b03-54ad-4741-9c29-463fab7a3523")
 		(effects
@@ -2278,7 +2277,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 105.68 0)
+		(at 141.5 105.68 0)
 		(layer "F.SilkS")
 		(uuid "97d2a3ba-0350-4ba0-a8fb-676f9f3b326e")
 		(effects
@@ -2302,7 +2301,7 @@
 		)
 	)
 	(gr_text "JTCK"
-		(at 130.890476 113.27 0)
+		(at 129.690476 113.27 0)
 		(layer "F.SilkS")
 		(uuid "a225d962-327b-481d-826a-aadadd4d5ae4")
 		(effects
@@ -2314,7 +2313,7 @@
 		)
 	)
 	(gr_text "JTDI"
-		(at 121.6 118.51 0)
+		(at 123 118.51 0)
 		(layer "F.SilkS")
 		(uuid "a522beef-629f-4c6f-a653-464424bd3ef5")
 		(effects
@@ -2326,7 +2325,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 126 0)
+		(at 141.5 126 0)
 		(layer "F.SilkS")
 		(uuid "a589ecd4-a749-4a3b-9eae-aed230fa6882")
 		(effects
@@ -2350,7 +2349,7 @@
 		)
 	)
 	(gr_text "JTDI"
-		(at 131.309524 108.19 0)
+		(at 130.109524 108.19 0)
 		(layer "F.SilkS")
 		(uuid "a7e3972f-38db-4030-b20c-59a8a031de05")
 		(effects
@@ -2362,7 +2361,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 112.09 116.07 0)
+		(at 111 116.07 0)
 		(layer "F.SilkS")
 		(uuid "ad5534a3-14b7-4368-bef5-28d18c68a916")
 		(effects
@@ -2374,7 +2373,7 @@
 		)
 	)
 	(gr_text "NRST"
-		(at 121.6 121.05 0)
+		(at 123 121.05 0)
 		(layer "F.SilkS")
 		(uuid "b6b701b5-f01c-4985-871e-543c41a021b9")
 		(effects
@@ -2386,7 +2385,7 @@
 		)
 	)
 	(gr_text "MCU_VDD\n"
-		(at 140.72 103.14 0)
+		(at 141.5 103.14 0)
 		(layer "F.SilkS")
 		(uuid "b6e1681a-23e7-4ead-9f6b-410f8446a3d5")
 		(effects
@@ -2398,7 +2397,7 @@
 		)
 	)
 	(gr_text "JTMS"
-		(at 121.6 110.89 0)
+		(at 123 110.89 0)
 		(layer "F.SilkS")
 		(uuid "ccf340a4-71b1-44e5-9a75-aab63ec69d44")
 		(effects
@@ -2446,7 +2445,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 123.46 0)
+		(at 141.5 123.46 0)
 		(layer "F.SilkS")
 		(uuid "dedf79d2-36fe-4dce-bd21-f3a5b72db14b")
 		(effects
@@ -2458,7 +2457,7 @@
 		)
 	)
 	(gr_text "MCU_VDD\n"
-		(at 109.080476 110.84 0)
+		(at 107.990476 110.84 0)
 		(layer "F.SilkS")
 		(uuid "fab534b2-5591-4dbb-a98a-f6c037ce5e47")
 		(effects
@@ -2470,7 +2469,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 118.38 0)
+		(at 141.5 118.38 0)
 		(layer "F.SilkS")
 		(uuid "fae4d2da-2c20-43a7-8604-8e76237b2284")
 		(effects
@@ -2482,7 +2481,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 140.72 120.92 0)
+		(at 141.5 120.92 0)
 		(layer "F.SilkS")
 		(uuid "fb6770f9-4f69-40b3-b7d5-0edadaf0c364")
 		(effects
