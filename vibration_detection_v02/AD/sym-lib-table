@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 0)
-  (lib (name "vibration_detection_AD_v02-altium-import")(type "KiCad")(uri "${KIPRJMOD}/vibration_detection_AD_v02-altium-import.kicad_sym")(options "")(descr ""))
-)
